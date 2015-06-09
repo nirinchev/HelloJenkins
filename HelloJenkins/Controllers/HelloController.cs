@@ -10,7 +10,7 @@ namespace HelloJenkins.Controllers
 		{
 			var result = new
 			{
-				Message = string.Format("Hello, {0}!", name)
+				Message = string.Format("Hello, {0}, you are awesome!", name)
 			};
 
 			return this.Ok(result);
